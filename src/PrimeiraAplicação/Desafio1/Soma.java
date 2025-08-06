@@ -1,0 +1,9 @@
+package PrimeiraAplicação.Desafio1;
+
+public class Soma {
+    public static void main(String[] args) {
+        int  resultado = 10 + 5;
+
+        System.out.println(resultado);
+    }
+}
