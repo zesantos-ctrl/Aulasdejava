@@ -1,4 +1,4 @@
-package OrientaçãoPorObjetos.Desafio1;
+package OrientacaoPorObjetos.Desafio1;
 
 public class ClassePessoa {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package OrientaçãoPorObjetos.Screenmatchmodels;
+package OrientacaoPorObjetos.Screenmatch.modelos;
 
-public class Filme {
+public class Titulo {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;

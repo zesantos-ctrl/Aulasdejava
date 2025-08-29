@@ -1,4 +1,4 @@
-package OrientaçãoPorObjetos.Desafio2;
+package OrientacaoPorObjetos.Desafio2;
 
 public class ContaBancaria {
     private String numeroConta;

@@ -1,4 +1,4 @@
-package OrientaçãoPorObjetos.Desafio1;
+package OrientacaoPorObjetos.Desafio1;
 
 public class Calculadora {
     public int calcular(int numero) {
