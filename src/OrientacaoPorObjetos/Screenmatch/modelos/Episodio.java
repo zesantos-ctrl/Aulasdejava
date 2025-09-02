@@ -1,9 +1,20 @@
 package OrientacaoPorObjetos.Screenmatch.modelos;
 
-public class Episodio {
+import OrientacaoPorObjetos.Screenmatch.calculo.Classificado;
+
+public class Episodio implements Classificado {
     private int numero;
     private String nome;
     private Serie serie;
+    private int totalVisualizacoes;
+
+    public int getTotalVisualizacoes() {
+        return totalVisualizacoes;
+    }
+
+    public void setTotalVisualizacoes(int totalVisualizaçoes) {
+        this.totalVisualizacoes = totalVisualizacoes;
+    }
 
     public int getNumero() {
         return numero;
@@ -27,5 +38,15 @@ public class Episodio {
 
     public void setSerie(Serie serie) {
         this.serie = serie;
+
+    }
+
+    @Override
+    public int getClassificacao() {
+        if (totalVisualizacoes > 100) {
+            return 4;
+        } else {
+            return 2;
+        }
     }
 }
