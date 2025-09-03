@@ -56,6 +56,8 @@ public class Principal {
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
+
+        //começo de arrayList
         Filme filmeDoZe = new Filme();
 
         filmeDoZe.setDuracaoEmMinutos(200);
@@ -69,5 +71,7 @@ public class Principal {
         listasDeFilmes.add(outroFilme);
         System.out.println("Tamanho da lista: " + listasDeFilmes.size());
         System.out.println("Primeiro filme: " + listasDeFilmes.get(0).toString());
+
+
     }
 }

@@ -18,6 +18,8 @@ public class Filme extends Titulo implements Classificado {
         return (int) pegarMedia() / 2;
     }
 
+
+    //começo de ArrayList
     @Override
     public String toString() {
     return "Filme: " + this.getNome() +  "(" + this.getAnoDeLancamento() + ")";
