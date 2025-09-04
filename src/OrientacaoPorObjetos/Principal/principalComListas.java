@@ -12,7 +12,7 @@ public class principalComListas {
         meufilme.avalia(6);
         Filme outroFilme = new Filme("Carros", 2005);
         outroFilme.avalia(9);
-        Filme filmeDoZe = new Filme("Incriveis", 2004);
+        Filme filmeDoZe = new Filme("Iincriveis", 2004);
         filmeDoZe.avalia(10);
         Serie horaDeAventura = new Serie("Hora de aventura", 2010);
 
