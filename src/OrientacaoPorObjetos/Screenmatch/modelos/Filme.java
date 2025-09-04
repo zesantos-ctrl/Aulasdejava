@@ -5,6 +5,11 @@ import OrientacaoPorObjetos.Screenmatch.calculo.Classificado;
 public class Filme extends Titulo implements Classificado {
     private String diretor;
 
+    //arraylist
+    public Filme(String nome, int anoDeLancamento) {
+      super(nome,anoDeLancamento);
+    }
+
     public String getDiretor() {
         return diretor;
     }

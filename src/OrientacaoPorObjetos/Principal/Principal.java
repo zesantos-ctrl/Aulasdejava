@@ -1,4 +1,4 @@
-package OrientacaoPorObjetos;
+package OrientacaoPorObjetos.Principal;
 
 import OrientacaoPorObjetos.Screenmatch.calculo.Recomendacao;
 import OrientacaoPorObjetos.Screenmatch.modelos.Episodio;
@@ -10,10 +10,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-
-        meuFilme.setNome("O poderoso chefão");
-        meuFilme.setAnoDeLancamento(1970);
+        Filme meuFilme = new Filme("O poderoso chefão", 1970);
         meuFilme.setDuracaoEmMinutos(180);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
@@ -25,18 +22,14 @@ public class Principal {
         System.out.println(meuFilme.pegarMedia());
 
 
-        Serie horaDeAventura  = new Serie();
-        horaDeAventura.setNome("Hora de aventura");
-        horaDeAventura.setAnoDeLancamento(2010);
+        Serie horaDeAventura  = new Serie("Hora de aventura", 2010);
         horaDeAventura.exibirFicha();
         horaDeAventura.setTemporadas(10);
         horaDeAventura.setEpisodiosPorTemporadas(283);
         horaDeAventura.setMinutosPorEpisodios(11);
         System.out.println("Duração da serie: " + horaDeAventura.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Carros");
-        outroFilme.setAnoDeLancamento(2005);
+        Filme outroFilme = new Filme("Carros", 2005);
         outroFilme.setDuracaoEmMinutos(120);
 
 
@@ -58,11 +51,8 @@ public class Principal {
 
 
         //começo de arrayList
-        Filme filmeDoZe = new Filme();
-
+        Filme filmeDoZe = new Filme("Incriveis", 2004);
         filmeDoZe.setDuracaoEmMinutos(200);
-        filmeDoZe.setNome("Carros");
-        filmeDoZe.setAnoDeLancamento(2005);
         filmeDoZe.avalia(9);
 
         ArrayList<Filme> listasDeFilmes = new ArrayList<>();
